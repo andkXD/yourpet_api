@@ -12,3 +12,8 @@ Proyek ini berisi API CRUD sederhana menggunakan PHP dan MySQL untuk manajemen d
 2. Import file `database_pet.sql` ke phpMyAdmin.
 3. Sesuaikan konfigurasi database di `config.php`.
 4. Gunakan Postman untuk melakukan testing endpoint.
+
+## Bukti Testing API (Postman)
+Hasil testing API menggunakan Postman:
+
+![Screenshot Postman](./bukti_testing.png)
