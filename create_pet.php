@@ -9,7 +9,7 @@ $id_user = $_POST['id_user'] ?? null;
 if (!$name || !$type || !$id_user) {
     echo json_encode([
         "status" => "error", 
-        "message" => "Data tidak lengkap! Kamu harus mengisi: name, type, dan id_user di Postman."
+        "message" => "Data tidak lengkap! harus mengisi: name, type, dan id_user di Postman."
     ]);
     exit;
 }
