@@ -12,7 +12,6 @@ if (mysqli_num_rows($result) > 0) {
         $pets[] = $row;
     }
 
-    // Memberikan respon sukses dan data pets
     echo json_encode([
         "status" => "success",
         "message" => "Data berhasil diambil",
